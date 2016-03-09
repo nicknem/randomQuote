@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap 101 Template</title>
+    <title>Random Quotes</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -19,10 +19,36 @@
 
   </head>
   <body>
-    <h1 class="text-center">Random Quote Machine</h1>
+    <div class="card">
+      <div class="quote-content text-center">
+        <i></i>"Click for a quote!"
+      </div>
+    <div class="quote-author text-right">
+    </div>
 
+
+  <!-- Share buttons -->
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+          <a class="twitter-share-button btn social"
+    href="" target="blank">Tweet
+          <i class="fa fa-twitter"></i>
+          </a>
+      </div>
+  <!-- Button to generate new quote -->
+      <div class="col-xs-12 col-md-6">
+        <button class="btn action" type="submit">New quote</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <a href="http://antoninarcher.com">By Antonin Archer</a>
+  </div>
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
