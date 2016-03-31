@@ -1,7 +1,8 @@
 body {
   background: #e74c3c;
   color: #FFFFFF;
-  font-family: "Courier New", Courier, monospace;
+
+  font-family: 'Istok Web', sans-serif;
 }
 
 .card {
@@ -15,6 +16,7 @@ body {
 
 }
 .quote-content {
+    font-family: 'Lora', serif;
     text-align: center;
     width: 450px;
     height: auto;
@@ -30,14 +32,15 @@ body {
   padding-top: 20px;
   font-size: 1em;
   text-align: right;
+}
 
-
+.clicks {
+  margin-top: 0.5em;
 }
 .btn {
  background: #e74c3c;
  color: #FFFFFF;
  border: none;
-
 }
 
 .btn:focus {
@@ -46,7 +49,6 @@ body {
 
 .action {
   float: right;
-  margin-top: 10px;
 }
 
 .footer {
